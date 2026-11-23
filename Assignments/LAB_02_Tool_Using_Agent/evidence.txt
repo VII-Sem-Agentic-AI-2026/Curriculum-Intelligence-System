@@ -1,0 +1,13 @@
+Command: python -m pytest tests/test_tools_analysis.py::test_credit_total_is_176 tests/test_tools_analysis.py::test_stale_flags_use_catalog_year_codes -v
+
+platform linux -- Python 3.12.3, pytest-9.2.0, pluggy-1.7.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/claude/cis3
+plugins: platformdirs-4.13.0, anyio-4.16.0, langsmith-0.14.17
+collecting ... collected 2 items
+
+tests/test_tools_analysis.py::test_credit_total_is_176 PASSED            [ 50%]
+tests/test_tools_analysis.py::test_stale_flags_use_catalog_year_codes PASSED [100%]
+
+============================== 2 passed in 2.30s ===============================
+
