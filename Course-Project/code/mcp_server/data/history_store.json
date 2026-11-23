@@ -1,0 +1,74 @@
+[
+  {
+    "id": "hist-001",
+    "course_code": "26ECAC401",
+    "tags": ["agentic-ai", "new-course", "2026-revision", "bos-approved"],
+    "text": "Board of Studies meeting, 18 April 2026 (CSE_AI-BOS-MOM.docx): Dr. Sandeep Palakkal proposed a skill-based course on Agentic Artificial Intelligence to familiarize students with emerging AI systems capable of autonomous decision-making, task execution and intelligent problem-solving. Resolution: approved for the 2026-27 scheme as Agentic AI (26ECAC401).",
+    "outcome": "approved",
+    "date": "2026-04-18",
+    "simulated": false
+  },
+  {
+    "id": "hist-002",
+    "course_code": "24ECAC403",
+    "tags": ["security", "new-course", "2026-revision", "bos-approved"],
+    "text": "Board of Studies meeting, 18 April 2026: the 2026-27 scheme adds Cryptography & Network Security (24ECAC403) to Semester VII as part of the same revision that introduced Agentic AI.",
+    "outcome": "approved",
+    "date": "2026-04-18",
+    "simulated": false
+  },
+  {
+    "id": "hist-003",
+    "course_code": null,
+    "tags": ["responsible-ai", "ethics", "proposed-not-core", "ai-security"],
+    "text": "Board of Studies meeting, 18 April 2026: Dr. Moula Hussain emphasised introducing Responsible Artificial Intelligence and Ethics in AI as a CORE course, citing fairness, accountability, transparency, privacy and responsible deployment. This was a discussion point, not a resolved core course; the curriculum currently addresses it only via an optional SWAYAM MOOC elective (24ECSE408, Responsible & Safe AI Systems).",
+    "outcome": "under-review",
+    "date": "2026-04-18",
+    "simulated": false
+  },
+  {
+    "id": "hist-004",
+    "course_code": null,
+    "tags": ["web-technologies", "student-feedback", "proposed-not-core"],
+    "text": "Board of Studies meeting, 18 April 2026: student member Ms. Shruti Sutar highlighted the industry importance of web technologies and proposed separate front-end and back-end courses for more practical learning; no resolution recorded to split the existing Web Technologies Lab.",
+    "outcome": "under-review",
+    "date": "2026-04-18",
+    "simulated": false
+  },
+  {
+    "id": "hist-005",
+    "course_code": null,
+    "tags": ["elective-advising", "process-change"],
+    "text": "Board of Studies meeting, 18 April 2026: Mr. Vinay Kulkarni proposed an advisory committee to guide students selecting elective baskets after their second year, aligned with interests, aptitude and emerging industry requirements.",
+    "outcome": "under-review",
+    "date": "2026-04-18",
+    "simulated": false
+  },
+  {
+    "id": "hist-006",
+    "course_code": "25ECAC307",
+    "tags": ["genai", "recoded", "rag"],
+    "text": "Generative AI (25ECAC307/25ECSC307) syllabus confirmed to include Retrieval-Augmented Generation (RAG): architecture, embeddings, vector databases and context retrieval, with a lab to build a RAG pipeline -- closing what earlier committee notes had flagged as an unverified depth gap.",
+    "outcome": "approved",
+    "date": "2026-04-18",
+    "simulated": false
+  },
+  {
+    "id": "hist-007",
+    "course_code": "24ECAC305",
+    "tags": ["deep-learning", "attainment-gap"],
+    "text": "Illustrative committee note (SIMULATED): Deep Learning flagged for below-target attainment on regularisation and optimisation topics; extra lab session proposed.",
+    "outcome": "approved",
+    "date": "2025-11-15",
+    "simulated": true
+  },
+  {
+    "id": "hist-008",
+    "course_code": "24ECAE317",
+    "tags": ["cloud", "mlops", "elective-only"],
+    "text": "Illustrative committee note (SIMULATED): Cloud Computing (24ECAE317) covers Docker, Kubernetes and DevOps tooling in depth but remains elective-only; committee asked whether MLOps-specific content (model deployment and monitoring, not just general DevOps) should be added.",
+    "outcome": "under-review",
+    "date": "2026-08-24",
+    "simulated": true
+  }
+]

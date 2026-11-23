@@ -1,0 +1,11 @@
+Command: python -m pytest tests/test_governance_graph.py::test_three_specialist_agents_are_distinct_graph_nodes_with_real_speedup -v
+
+cachedir: .pytest_cache
+rootdir: /home/claude/cis3
+plugins: platformdirs-4.13.0, anyio-4.16.0, langsmith-0.14.17
+collecting ... collected 1 item
+
+tests/test_governance_graph.py::test_three_specialist_agents_are_distinct_graph_nodes_with_real_speedup PASSED [100%]
+
+============================== 1 passed in 4.75s ===============================
+

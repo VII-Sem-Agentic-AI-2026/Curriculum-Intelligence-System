@@ -1,0 +1,91 @@
+
+==============================================================================
+RUN: LangGraph + LangChain tools + real MCP server (2 injected faults to show self-repair)
+==============================================================================
+Parallel swarm: 2.97s wall vs 7.71s sequential  {'curriculum_mapping': 1.79, 'industry_skills': 2.95, 'acm_apni_benchmarking': 2.97}
+Skill coverage 66.7% (syllabus-verified 66.7%)  counts={'covered_topic': 10, 'covered_title': 0, 'elective_only': 3, 'missing': 2}
+Missing: ['MLOps: model deployment, monitoring and CI/CD for ML and LLM systems', 'LLM evaluation, AI observability and guardrails']
+ACM CS2023 alignment 82.4%  counts={'covered': 14, 'partial': 2, 'missing': 1}
+Recently revised by the department: ['Embedded Intelligent Systems', 'Generative AI', 'Agentic AI', 'Internship Training']
+
+==============================================================================
+VALIDATION: passed=True after 3 attempt(s) (targeted repair)
+==============================================================================
+  PASS  credit totals consistent with the official document
+  PASS  CO/PO mapping stays consistent [substituted: PSO-to-course alignment, no CO data was supplied]
+  PASS  every gap carries evidence
+  PASS  every recommendation cites its evidence and a real gap
+  PASS  every recommendation stays within approved program scope 
+  PASS  every high-severity gap has a recommendation
+  PASS  gap analysis is reproducible
+  PASS  no recommendation is marked approved or published before review
+
+==============================================================================
+GAPS
+==============================================================================
+  GAP-01 [high] No course covers: MLOps: model deployment, monitoring and CI/CD for ML and LLM systems
+  GAP-02 [medium] ACM CS2023 area 'Human-Computer Interaction' is missing in the core curriculum
+  GAP-03 [medium] Only an optional elective covers: AI security: prompt-injection awareness, data exposure and responsible AI
+  GAP-04 [medium] No course covers: LLM evaluation, AI observability and guardrails
+  GAP-05 [low] ACM CS2023 area 'Graphics and Interactive Techniques' is partial in the core curriculum
+  GAP-06 [low] ACM CS2023 area 'Society, Ethics, and Professionalism' is partial in the core curriculum
+  GAP-07 [low] Only an optional elective covers: Big data platforms (Spark, Databricks, Kafka)
+  GAP-08 [low] Only an optional elective covers: Cloud platforms and cloud-native deployment (AWS, Azure, GCP, Docker, Kubernetes)
+  GAP-09 [low] C Programming for Problem Solving (18ECSP101) last revised 2018
+  GAP-10 [low] Engineering Mechanics (15ECVF101) last revised 2015
+
+==============================================================================
+RECOMMENDATIONS (each tied to gaps and evidence)
+==============================================================================
+  REC-01 New elective: MLOps, LLMOps and Cloud-Native AI Deployment  gaps=['GAP-01', 'GAP-04']  evidence=6
+  REC-02 Add a human-computer interaction module to the Web Technologies Lab  gaps=['GAP-02']  evidence=1
+  REC-03 Add an AI security module (prompt injection, data exposure, responsible AI)  gaps=['GAP-03']  evidence=3
+
+==============================================================================
+HARD STOP at the human gate (LangGraph interrupt). Resuming from a fresh checkpointer as the HoD
+==============================================================================
+decision: approved  published version: v1
+
+==============================================================================
+AUDIT LOG (tool calls auto-logged by a LangChain callback)
+==============================================================================
+  [chain] clarify                            {'questions': [], 'scope_check': 'passed'}
+  [chain] propose_plan                       ['Apply the program specialist pack and check department dat
+  [chain] revise_plan                        Revised plan incorporating feedback -> 'Prioritise agentic A
+  [chain] lock_plan (skill)                  {'department': 'CSE (AI)', 'scope': 'full curriculum', 'step
+  [chain] specialist_pack                    UG B.E. CSE (AI)
+  [tool ] read_curriculum_via_mcp            (pending)
+  [tool ] read_curriculum_via_mcp            (pending)
+  [tool ] read_industry_signals_via_mcp      (pending)
+  [tool ] (tool_end)                         {"_source": "Compiled via live web search on 2026-10-20 acro
+  [tool ] read_student_performance_via_mcp   (pending)
+  [tool ] (tool_end)                         {"_source": "KLE Technological University, CSE-AI, Year 2023
+  [tool ] check_credit_totals                (pending)
+  [tool ] (tool_end)                         {"valid": true, "value": {"computed_total": 176.0, "stated_t
+  [tool ] check_stale_courses                (pending)
+  [tool ] (tool_end)                         {"valid": true, "value": [{"course_code": "15ECVF101", "titl
+  [tool ] check_curriculum_evolution         (pending)
+  [tool ] (tool_end)                         {"valid": true, "value": {"recent_courses": [{"course_code":
+  [tool ] check_pso_alignment                (pending)
+  [tool ] (tool_end)                         {"valid": true, "value": {"PSO1 (software system constructio
+  [chain] curriculum_mapping_agent           {'seconds': 1.79}
+  [tool ] (tool_end)                         {"_source": "KLE Technological University, CSE-AI, Year 2023
+  [tool ] read_accreditation_reference_via_mcp (pending)
+  [tool ] (tool_end)                         {"_source": "SIMULATED for demo purposes. Real course-outcom
+  [chain] industry_skills_agent              {'seconds': 2.95}
+  [tool ] (tool_end)                         {"_source": "ACM/IEEE-CS/AAAI CS2023 knowledge-area list (17
+  [tool ] check_acm_benchmark                (pending)
+  [tool ] (tool_end)                         {"valid": true, "value": {"rows": [{"ka_code": "AI", "ka_nam
+  [chain] acm_apni_benchmarking_agent        {'seconds': 2.97}
+  [tool ] check_skill_coverage               (pending)
+  [tool ] (tool_end)                         {"valid": true, "value": {"detail": [{"id": "python_ml", "sk
+  [chain] fan_in_specialists (merge)         {'workers_seconds': {'curriculum_mapping': 1.79, 'industry_s
+  [chain] gap_analysis                       {'gaps': 11, 'fingerprint': 'b1cdcde7d0b65d05'}
+  [chain] memory_retrieve                    {'tag_hits': 3, 'similarity_hits': 3}
+  [chain] fault_injection                    evidence stripped from first recommendation
+  [chain] recommendations                    {'count': 3}
+  [chain] format_document (skill)            Curriculum Revision Recommendation (draft) - CSE (AI)
+  [chain] validate (acceptance suite)        {'passed': False, 'failing': ['every recommendation cites it
+  [chain] regenerate (targeted)              {'repaired': ['REC-01'], 'untouched': 2}
+  [chain] format_document (skill)            Curriculum Revision Recommendation (draft) - CSE (AI)
+  [chain] validate (acceptance suite)        {'passed': False, 'failing': ['every recommendation cites it

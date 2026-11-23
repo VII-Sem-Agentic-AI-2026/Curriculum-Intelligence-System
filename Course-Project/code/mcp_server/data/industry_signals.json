@@ -1,0 +1,518 @@
+{
+  "_source": "Compiled via live web search on 2026-10-20 across LinkedIn-hosted and LinkedIn-syndicated postings, Naukri Campus career guidance, company career pages and job boards (Infosys, TCS, Wipro, Lam Research, Razorpay, Siemens, ASAPP, Insight Global and others). Every skill carries source URLs so each trend is traceable. Postings were read and paraphrased, not copied. Counts in 'mentions' are the number of distinct sources collected in this study (a small sample, not a labour-market census) and are labelled low/medium/high confidence accordingly.",
+  "generated_on": "2026-10-20",
+  "job_postings_sample": [
+    {
+      "company": "Remote India (LinkedIn)",
+      "role": "Lead Agentic AI Engineer",
+      "skills": [
+        "Agentic AI",
+        "RAG",
+        "Vector databases",
+        "LangChain",
+        "LangGraph",
+        "LLM APIs",
+        "Terraform",
+        "CI/CD"
+      ],
+      "source_url": "https://jobs.weekday.works/wkdy5l7ndk",
+      "channel": "LinkedIn"
+    },
+    {
+      "company": "Financial-services client (LinkedIn post)",
+      "role": "Gen AI Engineer (50+ openings, India)",
+      "skills": [
+        "LLM API integration",
+        "MCP server development",
+        "RAG pipelines",
+        "Vector DB (Pinecone, Milvus)",
+        "LangChain / LangGraph / CrewAI",
+        "FastAPI"
+      ],
+      "source_url": "https://ua.linkedin.com/in/skhyliuk",
+      "channel": "LinkedIn"
+    },
+    {
+      "company": "Insight Global (India-remote)",
+      "role": "AI Engineer, Agentic AI",
+      "skills": [
+        "LangChain",
+        "LangGraph",
+        "MCP servers",
+        "RAG",
+        "Knowledge graphs",
+        "Pgvector / Pinecone / ChromaDB",
+        "AI observability and security"
+      ],
+      "source_url": "https://insightglobal.com/jobs/find_a_job/massachusetts/boston/ai-engineer-intl-india/job-534950/",
+      "channel": "Company/Recruiter"
+    },
+    {
+      "company": "Beroe",
+      "role": "AI Engineer (Agentic AI and LLM systems)",
+      "skills": [
+        "LangGraph",
+        "CrewAI",
+        "RAG with FAISS/Pinecone/OpenSearch",
+        "LLM fine-tuning and evaluation",
+        "Function calling",
+        "Agent memory modules",
+        "Prompt-injection awareness"
+      ],
+      "source_url": "https://www.beroeinc.com/careers-vacancies/ai-engineer-agentic-ai-llm-systems/",
+      "channel": "Company career page"
+    },
+    {
+      "company": "01cloud",
+      "role": "AI Agentic Engineer (India)",
+      "skills": [
+        "LangChain",
+        "LangGraph",
+        "LlamaIndex",
+        "AutoGen",
+        "Vector DBs",
+        "CI/CD for LLMs (GitHub Actions evaluation workflows)"
+      ],
+      "source_url": "https://career.01cloud.com/career/ai-agentic-engineer/",
+      "channel": "Company career page"
+    },
+    {
+      "company": "Things Alive Solutions",
+      "role": "Agentic AI Engineer (Bangalore, 0-1 yr experience)",
+      "skills": [
+        "SQL",
+        "RAG",
+        "LangChain / LangGraph",
+        "Vector DBs (Pinecone, Weaviate, Chroma, FAISS)",
+        "FastAPI",
+        "Prompt engineering"
+      ],
+      "source_url": "https://techjunction.co/?p=16198",
+      "channel": "Job board (entry level)"
+    },
+    {
+      "company": "Infosys",
+      "role": "Gen AI / Agentic AI Engineer",
+      "skills": [
+        "LangChain",
+        "LangGraph",
+        "AutoGen",
+        "RAG",
+        "Vector databases (FAISS, Pinecone)",
+        "Cloud GenAI services"
+      ],
+      "source_url": "https://jobs.anitab.org/companies/infosys/jobs/54793394-gen-ai-agentic-ai-engineer",
+      "channel": "Company posting"
+    },
+    {
+      "company": "TCS",
+      "role": "Agentic AI (Bengaluru walk-in drive, Aug 2026)",
+      "skills": [
+        "Agentic AI fundamentals",
+        "Planning and task decomposition",
+        "Autonomous action loops"
+      ],
+      "source_url": "https://www.founditgulf.com/job/mega-walkin-drive-for-agentic-ai-on-8-aug-26-bangalore-tata-consultancy-services-bengaluru-bangalore-61682202",
+      "channel": "Job board"
+    },
+    {
+      "company": "Razorpay",
+      "role": "AI Builder",
+      "skills": [
+        "Agentic workflows",
+        "LLM-native product building",
+        "Multi-agent systems",
+        "Production AI systems"
+      ],
+      "source_url": "https://razorpay.com/ai-builders/",
+      "channel": "Company career page"
+    },
+    {
+      "company": "Wipro",
+      "role": "AI Engineer L1 (Bangalore)",
+      "skills": [
+        "Machine learning",
+        "Computer vision",
+        "CNNs",
+        "TensorFlow / Torch",
+        "Statistical modelling"
+      ],
+      "source_url": "https://www.themuse.com/jobs/wipro/ai-engineer-l1-ad00f6",
+      "channel": "Company posting via job board"
+    },
+    {
+      "company": "Lam Research",
+      "role": "Data Scientist, Lead",
+      "skills": [
+        "Machine learning",
+        "Building APIs to integrate ML models",
+        "Azure cloud services and VMs",
+        "MLOps"
+      ],
+      "source_url": "https://arc.dev/remote-jobs/j/lam-research-data-scientist-lead-ph3g6aj50p",
+      "channel": "Company posting via job board"
+    },
+    {
+      "company": "Lam Research",
+      "role": "Vision Systems Engineer 4",
+      "skills": [
+        "Deep learning",
+        "Computer vision",
+        "Model deployment and monitoring",
+        "Cloud platforms (Azure/AWS/GCP)",
+        "MLOps"
+      ],
+      "source_url": "https://wellfound.com/jobs/4581458-vision-systems-engineer-4",
+      "channel": "Company posting via job board"
+    },
+    {
+      "company": "Lam Research",
+      "role": "Data Engineer, Lead (Bengaluru)",
+      "skills": [
+        "Data pipelines",
+        "SQL",
+        "ETL",
+        "Data architecture and governance"
+      ],
+      "source_url": "https://www.talentmate.com/jobs/india/Bengaluru/data-engineer-lead/2609-6085-178",
+      "channel": "Company posting via job board"
+    },
+    {
+      "company": "Naukri Campus",
+      "role": "Career guidance: ML Engineer and AI Engineer roles for freshers",
+      "skills": [
+        "Python",
+        "Core ML",
+        "PyTorch / TensorFlow",
+        "Cloud",
+        "MLOps",
+        "LLM APIs",
+        "LangChain",
+        "Vector databases"
+      ],
+      "source_url": "https://www.naukri.com/campus/career-guidance/how-to-become-a-machine-learning-engineer",
+      "channel": "Naukri"
+    },
+    {
+      "company": "Naukri Campus",
+      "role": "AI jobs in India 2026: Generative AI Engineer, AI/ML Engineer, Data Scientist",
+      "skills": [
+        "Generative AI with LLMs and RAG pipelines",
+        "TensorFlow / PyTorch / scikit-learn",
+        "SQL and analytics"
+      ],
+      "source_url": "https://www.naukri.com/campus/career-guidance/ai-jobs-in-india",
+      "channel": "Naukri"
+    }
+  ],
+  "aggregated_skill_demand": [
+    {
+      "id": "python_ml",
+      "skill": "Production-quality Python and ML frameworks (scikit-learn, PyTorch, TensorFlow)",
+      "horizon": "present",
+      "mentions": 6,
+      "trend": "stable-high",
+      "confidence": "high",
+      "match_keywords": [
+        "machine learning",
+        "neural networks",
+        "pytorch"
+      ],
+      "sources": [
+        "https://www.naukri.com/campus/career-guidance/how-to-become-a-machine-learning-engineer",
+        "https://www.naukri.com/campus/career-guidance/ai-jobs-in-india",
+        "https://www.themuse.com/jobs/wipro/ai-engineer-l1-ad00f6",
+        "https://arc.dev/remote-jobs/j/lam-research-data-scientist-lead-ph3g6aj50p"
+      ],
+      "date_collected": "2026-10-20",
+      "low_confidence_or_single_source": false
+    },
+    {
+      "id": "deep_learning_cv_nlp",
+      "skill": "Deep learning, computer vision and NLP",
+      "horizon": "present",
+      "mentions": 4,
+      "trend": "stable-high",
+      "confidence": "high",
+      "match_keywords": [
+        "deep learning",
+        "neural network",
+        "convolutional"
+      ],
+      "sources": [
+        "https://www.themuse.com/jobs/wipro/ai-engineer-l1-ad00f6",
+        "https://wellfound.com/jobs/4581458-vision-systems-engineer-4",
+        "https://www.naukri.com/campus/career-guidance/artificial-intelligence-ai-jobs"
+      ],
+      "date_collected": "2026-10-20",
+      "low_confidence_or_single_source": false
+    },
+    {
+      "id": "genai_llm",
+      "skill": "Generative AI and LLM application development (LLM APIs, prompting, fine-tuning)",
+      "horizon": "present",
+      "mentions": 8,
+      "trend": "rising",
+      "confidence": "high",
+      "match_keywords": [
+        "generative ai"
+      ],
+      "sources": [
+        "https://www.naukri.com/campus/career-guidance/ai-jobs-in-india",
+        "https://ua.linkedin.com/in/skhyliuk",
+        "https://www.beroeinc.com/careers-vacancies/ai-engineer-agentic-ai-llm-systems/",
+        "https://techjunction.co/?p=16198"
+      ],
+      "date_collected": "2026-10-20",
+      "low_confidence_or_single_source": false
+    },
+    {
+      "id": "agentic_frameworks",
+      "skill": "Agentic AI frameworks and orchestration (LangChain, LangGraph, CrewAI, AutoGen)",
+      "horizon": "present",
+      "mentions": 9,
+      "trend": "rising",
+      "confidence": "high",
+      "match_keywords": [
+        "agentic"
+      ],
+      "sources": [
+        "https://jobs.weekday.works/wkdy5l7ndk",
+        "https://ua.linkedin.com/in/skhyliuk",
+        "https://insightglobal.com/jobs/find_a_job/massachusetts/boston/ai-engineer-intl-india/job-534950/",
+        "https://www.beroeinc.com/careers-vacancies/ai-engineer-agentic-ai-llm-systems/",
+        "https://career.01cloud.com/career/ai-agentic-engineer/",
+        "https://jobs.anitab.org/companies/infosys/jobs/54793394-gen-ai-agentic-ai-engineer",
+        "https://razorpay.com/ai-builders/"
+      ],
+      "date_collected": "2026-10-20",
+      "low_confidence_or_single_source": false
+    },
+    {
+      "id": "rag_vector",
+      "skill": "RAG systems and vector databases (FAISS, Pinecone, Weaviate, Chroma, pgvector)",
+      "horizon": "present",
+      "mentions": 7,
+      "trend": "rising",
+      "confidence": "high",
+      "match_keywords": [
+        "retrieval-augmented",
+        "vector database",
+        "faiss",
+        "embedding"
+      ],
+      "sources": [
+        "https://jobs.weekday.works/wkdy5l7ndk",
+        "https://ua.linkedin.com/in/skhyliuk",
+        "https://insightglobal.com/jobs/find_a_job/massachusetts/boston/ai-engineer-intl-india/job-534950/",
+        "https://www.beroeinc.com/careers-vacancies/ai-engineer-agentic-ai-llm-systems/",
+        "https://techjunction.co/?p=16198"
+      ],
+      "date_collected": "2026-10-20",
+      "low_confidence_or_single_source": false
+    },
+    {
+      "id": "mcp_tool_calling",
+      "skill": "Tool calling and MCP server development for AI agents",
+      "horizon": "emerging",
+      "mentions": 3,
+      "trend": "rising",
+      "confidence": "medium",
+      "match_keywords": [
+        "model context protocol",
+        "mcp",
+        "function calling"
+      ],
+      "sources": [
+        "https://ua.linkedin.com/in/skhyliuk",
+        "https://insightglobal.com/jobs/find_a_job/massachusetts/boston/ai-engineer-intl-india/job-534950/",
+        "https://www.beroeinc.com/careers-vacancies/ai-engineer-agentic-ai-llm-systems/"
+      ],
+      "date_collected": "2026-10-20",
+      "low_confidence_or_single_source": false
+    },
+    {
+      "id": "mlops_deploy",
+      "skill": "MLOps: model deployment, monitoring and CI/CD for ML and LLM systems",
+      "horizon": "present",
+      "mentions": 6,
+      "trend": "rising",
+      "confidence": "high",
+      "match_keywords": [
+        "mlops",
+        "model deployment",
+        "model monitoring"
+      ],
+      "sources": [
+        "https://arc.dev/remote-jobs/j/lam-research-data-scientist-lead-ph3g6aj50p",
+        "https://wellfound.com/jobs/4581458-vision-systems-engineer-4",
+        "https://career.01cloud.com/career/ai-agentic-engineer/",
+        "https://www.naukri.com/campus/career-guidance/how-to-become-a-machine-learning-engineer"
+      ],
+      "date_collected": "2026-10-20",
+      "low_confidence_or_single_source": false
+    },
+    {
+      "id": "cloud_native",
+      "skill": "Cloud platforms and cloud-native deployment (AWS, Azure, GCP, Docker, Kubernetes)",
+      "horizon": "present",
+      "mentions": 7,
+      "trend": "stable-high",
+      "confidence": "high",
+      "match_keywords": [
+        "cloud computing",
+        "kubernetes",
+        "docker",
+        "cloud-native"
+      ],
+      "sources": [
+        "https://arc.dev/remote-jobs/j/lam-research-data-scientist-lead-ph3g6aj50p",
+        "https://wellfound.com/jobs/4581458-vision-systems-engineer-4",
+        "https://jobs.weekday.works/wkdy5l7ndk",
+        "https://www.naukri.com/campus/career-guidance/how-to-become-a-machine-learning-engineer"
+      ],
+      "date_collected": "2026-10-20",
+      "low_confidence_or_single_source": false
+    },
+    {
+      "id": "cicd_devops",
+      "skill": "CI/CD and DevOps practices",
+      "horizon": "present",
+      "mentions": 4,
+      "trend": "stable-high",
+      "confidence": "high",
+      "match_keywords": [
+        "ci/cd",
+        "devops"
+      ],
+      "sources": [
+        "https://jobs.weekday.works/wkdy5l7ndk",
+        "https://career.01cloud.com/career/ai-agentic-engineer/",
+        "https://www.foundit.in/job/52536258"
+      ],
+      "date_collected": "2026-10-20",
+      "low_confidence_or_single_source": false
+    },
+    {
+      "id": "sql_data_eng",
+      "skill": "SQL, ETL and data engineering pipelines",
+      "horizon": "present",
+      "mentions": 5,
+      "trend": "stable-high",
+      "confidence": "high",
+      "match_keywords": [
+        "sql",
+        "data warehousing",
+        "exploratory data analysis"
+      ],
+      "sources": [
+        "https://www.talentmate.com/jobs/india/Bengaluru/data-engineer-lead/2609-6085-178",
+        "https://www.foundit.in/job/52536258",
+        "https://techjunction.co/?p=16198",
+        "https://analyticsindiamag.com/data-science-hiring-process-at-lam-research-india/"
+      ],
+      "date_collected": "2026-10-20",
+      "low_confidence_or_single_source": false
+    },
+    {
+      "id": "big_data",
+      "skill": "Big data platforms (Spark, Databricks, Kafka)",
+      "horizon": "present",
+      "mentions": 3,
+      "trend": "stable",
+      "confidence": "medium",
+      "match_keywords": [
+        "big data"
+      ],
+      "sources": [
+        "https://www.foundit.in/job/52536258"
+      ],
+      "date_collected": "2026-10-20",
+      "low_confidence_or_single_source": false
+    },
+    {
+      "id": "ai_eval_observability",
+      "skill": "LLM evaluation, AI observability and guardrails",
+      "horizon": "emerging",
+      "mentions": 3,
+      "trend": "rising",
+      "confidence": "medium",
+      "match_keywords": [
+        "llm evaluation",
+        "observability",
+        "guardrail"
+      ],
+      "sources": [
+        "https://insightglobal.com/jobs/find_a_job/massachusetts/boston/ai-engineer-intl-india/job-534950/",
+        "https://www.beroeinc.com/careers-vacancies/ai-engineer-agentic-ai-llm-systems/",
+        "https://career.01cloud.com/career/ai-agentic-engineer/"
+      ],
+      "date_collected": "2026-10-20",
+      "low_confidence_or_single_source": false
+    },
+    {
+      "id": "ai_security",
+      "skill": "AI security: prompt-injection awareness, data exposure and responsible AI",
+      "horizon": "emerging",
+      "mentions": 2,
+      "trend": "rising",
+      "confidence": "low",
+      "match_keywords": [
+        "prompt injection",
+        "responsible & safe ai"
+      ],
+      "sources": [
+        "https://www.beroeinc.com/careers-vacancies/ai-engineer-agentic-ai-llm-systems/",
+        "https://insightglobal.com/jobs/find_a_job/massachusetts/boston/ai-engineer-intl-india/job-534950/"
+      ],
+      "date_collected": "2026-10-20",
+      "low_confidence_or_single_source": true
+    },
+    {
+      "id": "cybersecurity",
+      "skill": "Cryptography and network security fundamentals",
+      "horizon": "present",
+      "mentions": 2,
+      "trend": "stable",
+      "confidence": "low",
+      "match_keywords": [
+        "cryptography",
+        "network security"
+      ],
+      "sources": [
+        "https://www.naukri.com/campus/career-guidance/ai-jobs-in-india"
+      ],
+      "date_collected": "2026-10-20",
+      "low_confidence_or_single_source": true
+    },
+    {
+      "id": "software_testing",
+      "skill": "Software testing and TDD",
+      "horizon": "present",
+      "mentions": 2,
+      "trend": "stable",
+      "confidence": "low",
+      "match_keywords": [
+        "software testing",
+        "tdd"
+      ],
+      "sources": [
+        "https://www.naukri.com/campus/career-guidance/ai-jobs-in-india"
+      ],
+      "date_collected": "2026-10-20",
+      "low_confidence_or_single_source": true
+    }
+  ],
+  "salary_context": {
+    "_note": "Naukri Campus career guidance (accessed 2026-10-20) lists indicative starting ranges for Indian freshers; used only for context, not for any computation.",
+    "ai_ml_engineer_lpa": "4-10",
+    "data_scientist_lpa": "4-12",
+    "generative_ai_engineer_lpa": "5-12",
+    "source": "https://www.naukri.com/campus/career-guidance/ai-jobs-in-india"
+  },
+  "accreditation_signals": {
+    "acm_curricula_reference": "ACM/IEEE-CS/AAAI Computer Science Curricula 2023 (CS2023) knowledge areas",
+    "apni_standard_reference": "APNI standard: reference text NOT supplied to this system (see limitations); clause matching for it is a pluggable stub",
+    "note": "The department's own PEO/PO/PSO statements (from Master_copy_2025-29_Curriculum.pdf) are available as the program-outcome benchmark via the accreditation reference tool."
+  }
+}

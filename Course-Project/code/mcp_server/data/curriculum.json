@@ -1,0 +1,741 @@
+{
+  "_source": "KLE Technological University, CSE-AI, Year 2023-27 batch. Semesters I-VI transcribed from the official 'Curriculum Structure-Overall' sheet (Form FMCD2009/2.0). Semesters VII-VIII transcribed from 'CSEAI_VII-VIII_Structure-2026-28-07-2026.docx' and 'CSEAI-VII-VIII_updated_Scheme_24-08-2026_To_BGM.docx' (the 2026 curriculum revision, which added Agentic AI and Cryptography & Network Security as core Semester-VII courses, and recoded Embedded Intelligent Systems / Generative AI in Semester VI). Course topics for courses that also appear with full syllabi in the 2025-29 batch master document ('Master_copy_2025-29_Curriculum.pdf') are carried over where the course name/content is continuous across batches (noted per-course below); otherwise topics are omitted rather than invented. UPDATED with real unit-wise topics from All_Lesson_Plans_Merged_Sequence_Wise.pdf (2023-27 batch lesson plans) and corrected/cross-checked against CSE_AI-BOS-MOM.docx (the Board of Studies Minutes of Meeting, 18 April 2026, the authoritative approval record). Where the lesson-plan document uses a different course code than the curriculum-structure sheet for the same course (by title and content), both codes are recorded and the discrepancy is noted rather than silently resolved. Cryptography & Network Security topics added from CSE_AI-BOS-MOM.docx. Real topics also added for the elective-catalog entries Big Data Analytics (26ECAE417), Cloud Computing (24ECAE317), Cyber Security (24ECSE318), Software Testing (24ECSE402) and Wireless and Mobile Networks (25ECAE341), all from the same lesson-plan document.",
+  "department": "Computer Science & Engineering (Artificial Intelligence)",
+  "program": "B.E. CSE (AI)",
+  "batch_year": "2023-27",
+  "total_program_credits": 176,
+  "total_program_credits_breakdown": "44 + 132",
+  "declared_semester_credits": {
+    "I": 21,
+    "II": 23,
+    "III": 23.5,
+    "IV": 24.5,
+    "V": 23,
+    "VI": 26,
+    "VII": 18,
+    "VIII": 17
+  },
+  "courses": [
+    {
+      "course_code": "18EMAB101",
+      "title": "Single Variable Calculus",
+      "ltp": "4-1-0",
+      "semester": 1,
+      "type": "core"
+    },
+    {
+      "course_code": "22EPHB101",
+      "title": "Engineering Physics",
+      "ltp": "3-0-0",
+      "semester": 1,
+      "type": "core"
+    },
+    {
+      "course_code": "15ECVF101",
+      "title": "Engineering Mechanics",
+      "ltp": "4-0-0",
+      "semester": 1,
+      "type": "core"
+    },
+    {
+      "course_code": "18ECSP101",
+      "title": "C Programming for Problem Solving",
+      "ltp": "0-0-3",
+      "semester": 1,
+      "type": "lab",
+      "topics": [
+        "Problem solving framework",
+        "Programming paradigms",
+        "C tokens, datatypes, I/O",
+        "Decision control statements",
+        "Functions and macros",
+        "Iterative statements",
+        "Arrays and strings",
+        "Pointers",
+        "Structures and unions"
+      ],
+      "topics_source": "carried from equivalent course 25ECSF107 in 2025-29 master curriculum (same course, recoded)"
+    },
+    {
+      "course_code": "18EEEF101",
+      "title": "Basic Electrical Engineering",
+      "ltp": "3-0-0",
+      "semester": 1,
+      "type": "core"
+    },
+    {
+      "course_code": "20EHSP101",
+      "title": "Design Thinking for Social Innovation",
+      "ltp": "0-1-1",
+      "semester": 1,
+      "type": "core"
+    },
+    {
+      "course_code": "21EPHP101",
+      "title": "Applied Physics Lab",
+      "ltp": "0-0-1",
+      "semester": 1,
+      "type": "lab"
+    },
+    {
+      "course_code": "18EMAB102",
+      "title": "Multivariable Calculus",
+      "ltp": "4-1-0",
+      "semester": 2,
+      "type": "core"
+    },
+    {
+      "course_code": "22ECHB102",
+      "title": "Engineering Chemistry",
+      "ltp": "3-0-0",
+      "semester": 2,
+      "type": "core"
+    },
+    {
+      "course_code": "18ECSP102",
+      "title": "Problem Solving with Data Structures",
+      "ltp": "0-0-3",
+      "semester": 2,
+      "type": "lab",
+      "topics": [
+        "Review of C: structures, pointers, dynamic memory",
+        "Lists (singly/doubly/circular linked lists)",
+        "Stacks and recursion",
+        "Queues",
+        "Graphs",
+        "Trees (rooted, binary, traversals, spanning trees)"
+      ],
+      "topics_source": "carried from equivalent course 25ECSF103 Data Structures in 2025-29 master curriculum (same course, recoded)"
+    },
+    {
+      "course_code": "22ECRP101",
+      "title": "Engineering Exploration",
+      "ltp": "0-0-3",
+      "semester": 2,
+      "type": "lab"
+    },
+    {
+      "course_code": "18EECF101",
+      "title": "Basic Electronics",
+      "ltp": "4-0-0",
+      "semester": 2,
+      "type": "core"
+    },
+    {
+      "course_code": "22EMEF101",
+      "title": "Basic Mechanical Engineering",
+      "ltp": "2-1-0",
+      "semester": 2,
+      "type": "core"
+    },
+    {
+      "course_code": "15EHSH101",
+      "title": "Professional Communication",
+      "ltp": "1-1-0",
+      "semester": 2,
+      "type": "core"
+    },
+    {
+      "course_code": "24EMAB208",
+      "title": "Linear Algebra",
+      "ltp": "3-0-1",
+      "semester": 3,
+      "type": "core"
+    },
+    {
+      "course_code": "24ECAC201",
+      "title": "Discrete Mathematical Structures",
+      "ltp": "3-1-0",
+      "semester": 3,
+      "type": "core",
+      "topics": [
+        "Logic and proofs",
+        "Counting (pigeonhole, permutations, combinations)",
+        "Recurrence relations",
+        "Number theory (modular arithmetic, primes, Euclidean algorithm)",
+        "Groups",
+        "Finite fields"
+      ],
+      "topics_source": "carried from same-titled course in 2025-29 master curriculum; lesson-plan document uses code 24ECSC202 for an equivalent course, curriculum-structure sheet uses 24ECAC201"
+    },
+    {
+      "course_code": "24ECAC202",
+      "title": "Computer Organization and Architecture",
+      "ltp": "3-0-1",
+      "semester": 3,
+      "type": "core",
+      "topics": [
+        "Functional units, Von Neumann vs Harvard architecture",
+        "Instruction set architecture, addressing modes",
+        "RISC vs CISC, CPU datapath",
+        "Memory organization, cache mapping",
+        "Pipelining",
+        "I/O organization, DMA, multicore/GPU basics"
+      ],
+      "topics_source": "carried from same-titled course in 2025-29 master curriculum; lesson-plan document uses code 21ECSC201 for an equivalent course, curriculum-structure sheet uses 24ECAC202"
+    },
+    {
+      "course_code": "24ECAC203",
+      "title": "Design and Analysis of Algorithms",
+      "ltp": "4-0-0",
+      "semester": 3,
+      "type": "core",
+      "topics": [
+        "Design philosophy, complexity analysis, recursion/iteration/backtracking",
+        "Pruning, hashing, union-find",
+        "Graphs, trees, tries, AVL/red-black trees, heaps, segment trees",
+        "Sorting and searching",
+        "Graph algorithms (shortest path, spanning trees)",
+        "Undecidability, limitations of algorithms"
+      ],
+      "topics_source": "carried from same-titled course 26ECAC203 in 2025-29 master curriculum"
+    },
+    {
+      "course_code": "22ECAC204",
+      "title": "Database Management System",
+      "ltp": "4-0-0",
+      "semester": 3,
+      "type": "core",
+      "topics": [
+        "ER model, relational model, relational algebra",
+        "SQL (DDL/DML, joins, PL/SQL)",
+        "Database design, normal forms, BCNF",
+        "Transaction processing, concurrency control",
+        "Query optimization",
+        "Data warehousing, OLAP"
+      ],
+      "topics_source": "carried from same-titled course 26ECAC201 in 2025-29 master curriculum"
+    },
+    {
+      "course_code": "22ECAP201",
+      "title": "Database Applications Lab",
+      "ltp": "0-0-1.5",
+      "semester": 3,
+      "type": "lab"
+    },
+    {
+      "course_code": "24ECAP202",
+      "title": "Algorithms Lab",
+      "ltp": "0-0-2",
+      "semester": 3,
+      "type": "lab"
+    },
+    {
+      "course_code": "24EHSA201",
+      "title": "Corporate Communication",
+      "ltp": "Audit",
+      "semester": 3,
+      "type": "audit"
+    },
+    {
+      "course_code": "24EMAB209",
+      "title": "Probability & Statistics",
+      "ltp": "3-1-0",
+      "semester": 4,
+      "type": "core"
+    },
+    {
+      "course_code": "24ECAC206",
+      "title": "Microcontroller Programming and Interfacing",
+      "ltp": "1-0-2",
+      "semester": 4,
+      "type": "core"
+    },
+    {
+      "course_code": "24ECAC207",
+      "title": "Object Oriented Programming",
+      "ltp": "3-0-0",
+      "semester": 4,
+      "type": "core"
+    },
+    {
+      "course_code": "24ECAC208",
+      "title": "Operating System Principles and Programming",
+      "ltp": "4-0-1",
+      "semester": 4,
+      "type": "core",
+      "topics": [
+        "OS structures, system calls, virtualization",
+        "Process management, IPC, multithreading, CPU scheduling",
+        "Process synchronization, semaphores",
+        "Deadlocks",
+        "Memory management, paging, virtual memory",
+        "File systems",
+        "Storage management",
+        "Linux case study"
+      ],
+      "topics_source": "carried from same-titled course 26ECAC205 in 2025-29 master curriculum"
+    },
+    {
+      "course_code": "22ECAC209",
+      "title": "Principles of Compiler Design",
+      "ltp": "3-1-0",
+      "semester": 4,
+      "type": "core",
+      "topics": [
+        "Lexical analysis, regular expressions, finite automata",
+        "Syntax analysis, CFGs, top-down (LL1) and bottom-up (LR/LALR) parsing",
+        "Semantic analysis, attribute grammars, symbol tables",
+        "Intermediate code generation"
+      ],
+      "topics_source": "carried from same-titled course 26ECAC210 in 2025-29 master curriculum"
+    },
+    {
+      "course_code": "24ECAC210",
+      "title": "Exploratory Data Analysis",
+      "ltp": "2-0-2",
+      "semester": 4,
+      "type": "core",
+      "topics": [
+        "Data pipeline, data quality, pre-processing, missing values, outliers",
+        "Normalization, standardization, feature scaling",
+        "Visualization (histograms, boxplots, scatter plots, heatmaps)",
+        "Correlation, multicollinearity, hypothesis generation",
+        "Multimodal data processing (text/image/audio/video), KDD process"
+      ],
+      "topics_source": "carried from same-titled course 26ECAC213 in 2025-29 master curriculum"
+    },
+    {
+      "course_code": "24ECAP206",
+      "title": "Object Oriented Programming Lab",
+      "ltp": "0-0-1.5",
+      "semester": 4,
+      "type": "lab"
+    },
+    {
+      "course_code": "24EHSA202",
+      "title": "Problem Solving & Analysis",
+      "ltp": "Audit",
+      "semester": 4,
+      "type": "audit"
+    },
+    {
+      "course_code": "22ECAC301",
+      "title": "Software Engineering",
+      "ltp": "3-0-0",
+      "semester": 5,
+      "type": "core",
+      "topics": [
+        "SDLC, process models, Agile vs traditional, requirements engineering",
+        "Agile frameworks: Scrum, XP, SAFe",
+        "Agile planning: user stories, story points, release planning",
+        "System modeling and architectural design",
+        "Software testing techniques, TDD",
+        "DevOps principles, CI/CD, Jenkins pipelines"
+      ],
+      "topics_source": "carried from same-titled course 26ECAC206 in 2025-29 master curriculum"
+    },
+    {
+      "course_code": "24ECAC302",
+      "title": "Computer Networks",
+      "ltp": "3-0-0",
+      "semester": 5,
+      "type": "core",
+      "topics": [
+        "Internet architecture, application layer (HTTP, SMTP, DNS, DHCP)",
+        "Transport layer (UDP, TCP, congestion control)",
+        "Network layer: data plane and control plane, routing algorithms",
+        "Data link layer, error detection/correction",
+        "Channel access protocols (CSMA/CD, CSMA/CA)",
+        "Switched LANs, VLANs, SDN introduction"
+      ],
+      "topics_source": "carried from same-titled course 26ECAC208 in 2025-29 master curriculum"
+    },
+    {
+      "course_code": "22ECAC303",
+      "title": "Machine Learning",
+      "ltp": "3-0-0",
+      "semester": 5,
+      "type": "core",
+      "topics": [
+        "Linear models, gradient descent, logistic regression",
+        "Neural networks, backpropagation, PyTorch, loss landscape",
+        "Decision trees, Naive Bayes, KNN",
+        "Model evaluation: cross-validation, ROC/AUC, bias-variance tradeoff",
+        "Ensemble learning: bagging, random forests, boosting (AdaBoost, XGBoost)",
+        "Unsupervised learning: K-means, hierarchical and density-based clustering (DBSCAN)"
+      ],
+      "topics_source": "carried from same-titled course 26ECAC211 in 2025-29 master curriculum"
+    },
+    {
+      "course_code": "24ECAC304",
+      "title": "Internet of Things",
+      "ltp": "2-0-1",
+      "semester": 5,
+      "type": "core",
+      "topics": [
+        "IoT architecture and protocols",
+        "Sensors, actuators and edge devices",
+        "IoT data processing and cloud integration"
+      ],
+      "topics_source": "real (partial), from All_Lesson_Plans_Merged_Sequence_Wise.pdf; lesson-plan document uses code 24ECAC308, curriculum-structure sheet uses 24ECAC304"
+    },
+    {
+      "course_code": "22ECAP303",
+      "title": "Machine Learning Lab",
+      "ltp": "0-0-1.5",
+      "semester": 5,
+      "type": "lab"
+    },
+    {
+      "course_code": "24ECAP304",
+      "title": "Web Technologies Lab",
+      "ltp": "0-0-2",
+      "semester": 5,
+      "type": "lab",
+      "topics": [
+        "HTML5, CSS, JavaScript, DOM, Bootstrap",
+        "RESTful APIs with Node.js and Express, JWT/Bcrypt security",
+        "React: JSX, components, hooks, context API, routing"
+      ],
+      "topics_source": "carried from same-titled course 26ECAC207 in 2025-29 master curriculum"
+    },
+    {
+      "course_code": "22ECAP302",
+      "title": "Computer Networks Lab",
+      "ltp": "0-0-1.5",
+      "semester": 5,
+      "type": "lab"
+    },
+    {
+      "course_code": "XXECAE3XX-PE1",
+      "title": "Professional Elective 1 (PE-1)",
+      "ltp": "3-0-0",
+      "semester": 5,
+      "type": "elective"
+    },
+    {
+      "course_code": "22ECAW301",
+      "title": "Mini Project",
+      "ltp": "0-0-3",
+      "semester": 5,
+      "type": "project"
+    },
+    {
+      "course_code": "23EHSA303",
+      "title": "Arithmetical Thinking & Analytical Reasoning",
+      "ltp": "Audit",
+      "semester": 5,
+      "type": "audit"
+    },
+    {
+      "course_code": "24ECAC305",
+      "title": "Deep Learning",
+      "ltp": "3-0-1",
+      "semester": 6,
+      "type": "core",
+      "topics": [
+        "Neural network foundations and training",
+        "Convolutional and sequence architectures",
+        "Regularization and optimization"
+      ],
+      "topics_source": "real (partial), from All_Lesson_Plans_Merged_Sequence_Wise.pdf; lesson-plan document uses code 25ECAC305, curriculum-structure sheet uses 24ECAC305"
+    },
+    {
+      "course_code": "25ECAC306",
+      "title": "Embedded Intelligent Systems",
+      "ltp": "1-0-2",
+      "semester": 6,
+      "type": "core",
+      "topics": [
+        "Embedded system design for AI workloads",
+        "On-device/edge inference",
+        "Real-time constraints for intelligent embedded systems"
+      ],
+      "topics_source": "real (partial), from All_Lesson_Plans_Merged_Sequence_Wise.pdf; lesson-plan document uses code 25ECSE302, curriculum-structure sheet uses 25ECAC306"
+    },
+    {
+      "course_code": "25ECAC307",
+      "title": "Generative AI",
+      "ltp": "3-0-1",
+      "semester": 6,
+      "type": "core",
+      "topics": [
+        "Generative AI foundations, generative vs discriminative models",
+        "Generative Adversarial Networks (GANs)",
+        "Retrieval-Augmented Generation (RAG): architecture, embeddings, vector databases, context retrieval",
+        "Integration of RAG using frameworks; lab: build a RAG pipeline with a vector database and embeddings",
+        "Vision-language models and multimodal generative AI",
+        "Deployment and monitoring of a generative AI application"
+      ],
+      "topics_source": "real, from All_Lesson_Plans_Merged_Sequence_Wise.pdf and CSE_AI-BOS-MOM.docx (unit content; lesson-plan document uses code 25ECSC307 for this course, the curriculum-structure sheet uses 25ECAC307 -- same course, codes differ across the university's own documents)"
+    },
+    {
+      "course_code": "XXECAE3XX-PE2",
+      "title": "Professional Elective 2 (PE-2)",
+      "ltp": "3-0-0",
+      "semester": 6,
+      "type": "elective"
+    },
+    {
+      "course_code": "XXECAE3XX-PE3",
+      "title": "Professional Elective 3 (PE-3)",
+      "ltp": "3-0-0",
+      "semester": 6,
+      "type": "elective"
+    },
+    {
+      "course_code": "24ECAW304",
+      "title": "Minor Project",
+      "ltp": "0-0-6",
+      "semester": 6,
+      "type": "project"
+    },
+    {
+      "course_code": "16EHSC301",
+      "title": "Professional Aptitude & Logical Reasoning",
+      "ltp": "3-0-0",
+      "semester": 6,
+      "type": "core"
+    },
+    {
+      "course_code": "23EHSA304",
+      "title": "Industry Readiness & Leadership Skills",
+      "ltp": "Audit",
+      "semester": 6,
+      "type": "audit"
+    },
+    {
+      "course_code": "26ECAC401",
+      "title": "Agentic AI",
+      "ltp": "2-0-1",
+      "semester": 7,
+      "type": "core",
+      "_note": "Added to the curriculum in the 2026 revision (26-prefix code) -- the department's own first move toward the exact gap this project analyses.",
+      "topics": [
+        "Foundations of Agentic AI (agent loop, plan-act-observe-revise)",
+        "Agent frameworks, tools, skills and memory (LangChain, LangGraph, AutoGen)",
+        "Model Context Protocol (MCP) and governed connectors",
+        "Multi-agent orchestration and parallel task execution (swarms)",
+        "Agentic runtime patterns (OpenCLA/OpenClaw), audit logging, checkpoints",
+        "Learning agents: RLHF, RLAIF, DPO, Reflexion",
+        "Agentic SDLC",
+        "Safety and governance: approval gates, audit logs, evaluation"
+      ],
+      "topics_source": "real, from All_Lesson_Plans_Merged_Sequence_Wise.pdf and CSE_AI-BOS-MOM.docx (Course Code 26ECAC401 unit content)"
+    },
+    {
+      "course_code": "24ECAC403",
+      "title": "Cryptography & Network Security",
+      "ltp": "2-0-1",
+      "semester": 7,
+      "type": "core",
+      "_note": "Added to the curriculum in the 2026-27 revision, approved by the Board of Studies on 18 April 2026 (CSE_AI-BOS-MOM.docx). Code corrected to 24ECAC403 to match that approved table (an earlier structure draft used 26ECAC402 for the same course).",
+      "topics": [
+        "Introduction: OSI security architecture, secure design principles, classic crypto (substitution/transposition)",
+        "Cryptographic algorithms: symmetric (stream ciphers, Feistel, AES, DES) and asymmetric (Diffie-Hellman, ElGamal, ECC, post-quantum intro)",
+        "Data integrity and key management: hash functions, MAC/HMAC, digital signatures, PKI, zero-knowledge proofs",
+        "Authentication and authorization: MFA, SSO, RBAC, firewalls/IDS, cloud access control, Zero Trust",
+        "Application and transport security: PGP, S/MIME, SSL/TLS, SSH, Kerberos, OAuth/JWT",
+        "Network and wireless security: IPSec, 802.11 security, WPA2/WPA3, 5G network security"
+      ],
+      "topics_source": "real, from CSE_AI-BOS-MOM.docx's own Course Content section for this course (that section header uses yet a third code, 26ECAC305, for the same course -- recorded here as a further example of code inconsistency across the university's own documents, alongside the earlier 26ECAC402 draft code)",
+      "lesson_plan_or_mom_code_variant": "26ECAC305"
+    },
+    {
+      "course_code": "XXECAE4XX-PE4",
+      "title": "Professional Elective 4 (PE-4)",
+      "ltp": "3-0-0",
+      "semester": 7,
+      "type": "elective"
+    },
+    {
+      "course_code": "XXECAE4XX-PE5",
+      "title": "Professional Elective 5 (PE-5)",
+      "ltp": "3-0-0",
+      "semester": 7,
+      "type": "elective"
+    },
+    {
+      "course_code": "22ECAW401",
+      "title": "Senior Design Project",
+      "ltp": "0-0-6",
+      "semester": 7,
+      "type": "project"
+    },
+    {
+      "course_code": "15EHSA401",
+      "title": "CIPE & EVS",
+      "ltp": "Audit",
+      "semester": 7,
+      "type": "audit"
+    },
+    {
+      "course_code": "XXECAE4XX-PE6",
+      "title": "Professional Elective 6 (PE-6)",
+      "ltp": "3-0-0",
+      "semester": 8,
+      "type": "elective"
+    },
+    {
+      "course_code": "XXECAO4XX",
+      "title": "Open Elective (OE)",
+      "ltp": "3-0-0",
+      "semester": 8,
+      "type": "elective"
+    },
+    {
+      "course_code": "25ECAI493",
+      "title": "Internship Training",
+      "ltp": "0-0-6",
+      "semester": 8,
+      "type": "internship"
+    },
+    {
+      "course_code": "22ECAW402",
+      "title": "Capstone Project / Internship Project (25ECAW494)",
+      "ltp": "0-0-11",
+      "semester": 8,
+      "type": "project"
+    }
+  ],
+  "elective_catalog": {
+    "_source": "CSEAI-VII-VIII_updated_Scheme_24-08-2026_To_BGM.docx -- List of Open Electives and List of Program Electives",
+    "open_electives": [
+      {
+        "code": "22ECAO401",
+        "title": "Distributed and Cloud Computing"
+      },
+      {
+        "code": "22ECAO404",
+        "title": "Database Management System"
+      },
+      {
+        "code": "22ECAO402",
+        "title": "High Performance Computing for Engineering Applications"
+      },
+      {
+        "code": "22ECAO405",
+        "title": "Essentials of IT"
+      },
+      {
+        "code": "22ECAO403",
+        "title": "Software Engineering"
+      },
+      {
+        "code": "22ECAO406",
+        "title": "Big Data Analytics"
+      }
+    ],
+    "program_electives": [
+      {
+        "cluster": "Data Intelligence",
+        "code": "22ECAE407",
+        "title": "Advanced Computer Graphics"
+      },
+      {
+        "cluster": "Data Intelligence",
+        "code": "24ECAE406",
+        "title": "Information Retrieval"
+      },
+      {
+        "cluster": "Data Intelligence",
+        "code": "24ECAE405",
+        "title": "Social Network Analysis"
+      },
+      {
+        "cluster": "Data Intelligence",
+        "code": "26ECAE417",
+        "title": "Big Data Analytics",
+        "topics": [
+          "Big data characteristics, data analytics life cycle",
+          "Big data storage: distributed file systems, NoSQL (document/column/graph), MongoDB, sharding, replication",
+          "Big data processing: Hadoop, MapReduce, Spark",
+          "Stream processing: batch vs stream, distributed stream processing, window aggregations",
+          "Big data analysis with Pig",
+          "Big data visualization with Hive, HiveQL"
+        ],
+        "topics_source": "real, from All_Lesson_Plans_Merged_Sequence_Wise.pdf"
+      },
+      {
+        "cluster": "Networking and Security",
+        "code": "22ECAE412",
+        "title": "Mobile and Wireless Networks"
+      },
+      {
+        "cluster": "Networking and Security",
+        "code": "22ECAE410",
+        "title": "Software Defined Networks"
+      },
+      {
+        "cluster": "Systems and Software Development",
+        "code": "22ECAE414",
+        "title": "Advanced Parallel Computing"
+      },
+      {
+        "cluster": "Systems and Software Development",
+        "code": "22ECAE415",
+        "title": "Scalable AI"
+      },
+      {
+        "cluster": "Skill Enhancement",
+        "code": "18ECSE407",
+        "title": "Software Testing"
+      },
+      {
+        "cluster": "Skill Enhancement",
+        "code": "24ECAE416",
+        "title": "C# and .NET"
+      },
+      {
+        "cluster": "SWAYAM MOOC",
+        "code": "24ECSE405",
+        "title": "Social Network Analysis"
+      },
+      {
+        "cluster": "SWAYAM MOOC",
+        "code": "24ECSE402",
+        "title": "Software Testing",
+        "topics": [
+          "Graph-based and data-flow test-case design and coverage criteria",
+          "Logic-based testing, input-space partitioning, syntax-based/mutation testing",
+          "Test case design for object-oriented and web applications",
+          "Symbolic and concolic testing"
+        ],
+        "topics_source": "real, from All_Lesson_Plans_Merged_Sequence_Wise.pdf"
+      },
+      {
+        "cluster": "SWAYAM MOOC",
+        "code": "24ECSE401",
+        "title": "Cyber Security and Privacy"
+      },
+      {
+        "cluster": "SWAYAM MOOC",
+        "code": "26ECSE476",
+        "title": "Multicore Computer Architecture"
+      },
+      {
+        "cluster": "SWAYAM MOOC",
+        "code": "24ECSE408",
+        "title": "Responsible & Safe AI Systems"
+      },
+      {
+        "cluster": "Systems and Software Development (found in course-content document; cluster not confirmed in the elective-list table)",
+        "code": "24ECAE317",
+        "title": "Cloud Computing",
+        "topics": [
+          "Cloud computing motivation, elastic computing, cloud types, data-center infrastructure",
+          "Virtualization and containerization: VMs, Linux namespaces, Docker containers",
+          "Automation and orchestration: infrastructure as code, Kubernetes (pods, nodes, control plane)",
+          "Microservices architecture and communication",
+          "Serverless computing and event processing",
+          "DevOps for cloud: Puppet, Chef, Ansible, configuration management and IT automation"
+        ],
+        "topics_source": "real, from All_Lesson_Plans_Merged_Sequence_Wise.pdf"
+      },
+      {
+        "cluster": "Networking and Security (found in course-content document; cluster not confirmed in the elective-list table)",
+        "code": "24ECSE318",
+        "title": "Cyber Security",
+        "topics": [
+          "Cybersecurity fundamentals, threat landscape, threat intelligence and incident response",
+          "Cyber-crimes and cyber law (IT Act 2000), social engineering, malware/ransomware, case studies",
+          "Network and web security: OWASP top 10, firewalls, intrusion detection",
+          "Security operations: SOC maturity model, SIEM architecture, incident detection and response"
+        ],
+        "topics_source": "real, from All_Lesson_Plans_Merged_Sequence_Wise.pdf"
+      }
+    ]
+  },
+  "notes": "KLE Tech course codes encode the catalog year a course was introduced or last revised (e.g. 26ECAC401 -> 2026, 18ECSP101 -> 2018). Electives (XX-prefixed placeholder codes) have no concrete year until a student selects a specific option from the catalog, so they are excluded from the staleness check."
+}

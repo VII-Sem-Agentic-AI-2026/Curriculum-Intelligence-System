@@ -1,0 +1,202 @@
+{
+  "_source": "ACM/IEEE-CS/AAAI CS2023 knowledge-area list (17 areas; area names and codes as published in the CS2023 curricula report, matching keywords are this project's own curated mapping to course titles/topics, not text from ACM). Program outcomes PEO/PO/PSO transcribed from Master_copy_2025-29_Curriculum.pdf pages 5-6 (department statements). APNI clause text was not supplied; it is not included.",
+  "acm_cs2023_knowledge_areas": [
+    {
+      "code": "AI",
+      "name": "Artificial Intelligence",
+      "keywords": [
+        "machine learning",
+        "deep learning",
+        "generative ai",
+        "agentic"
+      ],
+      "min_courses_core": 2
+    },
+    {
+      "code": "AL",
+      "name": "Algorithmic Foundations",
+      "keywords": [
+        "algorithms",
+        "data structures",
+        "discrete mathematical"
+      ],
+      "min_courses_core": 2
+    },
+    {
+      "code": "AR",
+      "name": "Architecture and Organization",
+      "keywords": [
+        "computer organization",
+        "microcontroller",
+        "embedded"
+      ],
+      "min_courses_core": 1
+    },
+    {
+      "code": "DM",
+      "name": "Data Management",
+      "keywords": [
+        "database",
+        "big data",
+        "exploratory data analysis",
+        "data warehousing"
+      ],
+      "min_courses_core": 2
+    },
+    {
+      "code": "FPL",
+      "name": "Foundations of Programming Languages",
+      "keywords": [
+        "compiler",
+        "object oriented"
+      ],
+      "min_courses_core": 1
+    },
+    {
+      "code": "GIT",
+      "name": "Graphics and Interactive Techniques",
+      "keywords": [
+        "computer graphics"
+      ],
+      "min_courses_core": 1
+    },
+    {
+      "code": "HCI",
+      "name": "Human-Computer Interaction",
+      "keywords": [
+        "human-computer",
+        "human computer",
+        "user interface",
+        "usability"
+      ],
+      "min_courses_core": 1
+    },
+    {
+      "code": "MSF",
+      "name": "Mathematical and Statistical Foundations",
+      "keywords": [
+        "calculus",
+        "linear algebra",
+        "probability",
+        "discrete mathematical"
+      ],
+      "min_courses_core": 3
+    },
+    {
+      "code": "NC",
+      "name": "Networking and Communication",
+      "keywords": [
+        "computer networks",
+        "internet of things"
+      ],
+      "min_courses_core": 1
+    },
+    {
+      "code": "OS",
+      "name": "Operating Systems",
+      "keywords": [
+        "operating system"
+      ],
+      "min_courses_core": 1
+    },
+    {
+      "code": "PDC",
+      "name": "Parallel and Distributed Computing",
+      "keywords": [
+        "multithreading",
+        "parallel computing",
+        "distributed and cloud",
+        "high performance computing",
+        "multicore"
+      ],
+      "min_courses_core": 1
+    },
+    {
+      "code": "SDF",
+      "name": "Software Development Fundamentals",
+      "keywords": [
+        "c programming",
+        "data structures",
+        "object oriented"
+      ],
+      "min_courses_core": 2
+    },
+    {
+      "code": "SE",
+      "name": "Software Engineering",
+      "keywords": [
+        "software engineering",
+        "software testing",
+        "devops",
+        "ci/cd"
+      ],
+      "min_courses_core": 1
+    },
+    {
+      "code": "SEC",
+      "name": "Security",
+      "keywords": [
+        "cryptography",
+        "network security",
+        "cyber security"
+      ],
+      "min_courses_core": 1
+    },
+    {
+      "code": "SEP",
+      "name": "Society, Ethics, and Professionalism",
+      "keywords": [
+        "responsible & safe ai",
+        "professional communication",
+        "ethics"
+      ],
+      "min_courses_core": 2
+    },
+    {
+      "code": "SF",
+      "name": "Systems Fundamentals",
+      "keywords": [
+        "computer organization",
+        "operating system",
+        "computer networks"
+      ],
+      "min_courses_core": 1
+    },
+    {
+      "code": "SPD",
+      "name": "Specialized Platform Development",
+      "keywords": [
+        "web technologies",
+        "internet of things",
+        "embedded",
+        "mobile and wireless"
+      ],
+      "min_courses_core": 1
+    }
+  ],
+  "department_outcomes": {
+    "PEO": {
+      "PEO1": "Peer-recognised technical competency to analyse, design, develop, deploy and maintain computing solutions for contemporary problems.",
+      "PEO2": "Leadership and initiative with ethical standards, teamwork and respect for diverse backgrounds.",
+      "PEO3": "Ongoing learning and professional development through higher education and self-study.",
+      "PEO4": "Responsible creative practice contributing to socio-economic development."
+    },
+    "PO": {
+      "PO1": "Engineering knowledge",
+      "PO2": "Problem analysis",
+      "PO3": "Design/development of solutions",
+      "PO4": "Conduct investigations of complex problems",
+      "PO5": "Engineering tool usage (including modern IT tools, prediction and modelling)",
+      "PO6": "The engineer and the world (sustainability, society)",
+      "PO7": "Ethics",
+      "PO8": "Individual and collaborative teamwork",
+      "PO9": "Communication",
+      "PO10": "Project management and finance",
+      "PO11": "Life-long learning (adaptability to new and emerging technologies)"
+    },
+    "PSO": {
+      "PSO1": "Software system construction: apply design and development principles in building software systems of varying complexity.",
+      "PSO2": "Domain-specific knowledge: ability to develop AI based solutions in the domain of data, system and network engineering."
+    }
+  }
+}

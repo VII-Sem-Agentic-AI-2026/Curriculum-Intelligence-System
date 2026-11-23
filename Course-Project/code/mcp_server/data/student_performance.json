@@ -1,0 +1,44 @@
+{
+  "_source": "SIMULATED for demo purposes. Real course-outcome attainment and placement-cell feedback are private records that were not supplied. Structurally realistic (real 2023-27 course codes from curriculum.json) but the numbers are illustrative. Replace this file with a real exam-cell/placement-cell export; nothing else in the system changes (Lab 5 connector guarantee).",
+  "cohort": "2023-27 batch",
+  "course_attainment": [
+    {
+      "course_code": "22ECAC303",
+      "title": "Machine Learning",
+      "avg_co_attainment_pct": 78,
+      "notes": "Classical ML fundamentals well covered."
+    },
+    {
+      "course_code": "24ECAC305",
+      "title": "Deep Learning",
+      "avg_co_attainment_pct": 71,
+      "notes": "Weaker on regularisation and optimisation topics."
+    },
+    {
+      "course_code": "25ECAC307",
+      "title": "Generative AI",
+      "avg_co_attainment_pct": 66,
+      "notes": "Recently recoded course; students report RAG and agent portions feel rushed."
+    },
+    {
+      "course_code": "22ECAC301",
+      "title": "Software Engineering",
+      "avg_co_attainment_pct": 82,
+      "notes": "Strong performance."
+    },
+    {
+      "course_code": "24ECAC302",
+      "title": "Computer Networks",
+      "avg_co_attainment_pct": 69,
+      "notes": "Moderate."
+    }
+  ],
+  "placement_feedback": [
+    {
+      "note": "Illustrative: interns interviewing for AI-first roles were asked about RAG, vector databases and agent frameworks; the core curriculum has no dedicated course on vector databases or MLOps."
+    },
+    {
+      "note": "Illustrative: cloud-native deployment (Docker, Kubernetes) and CI/CD for ML came up repeatedly in ML-engineer interview loops."
+    }
+  ]
+}

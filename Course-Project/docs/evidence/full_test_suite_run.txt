@@ -1,0 +1,42 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.2.0, pluggy-1.7.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/claude/cis3
+plugins: platformdirs-4.13.0, anyio-4.16.0, langsmith-0.14.17
+collecting ... collected 33 items
+
+tests/test_governance_graph.py::test_pipeline_pauses_at_gate_with_parallel_speedup_and_passing_suite PASSED [  3%]
+tests/test_governance_graph.py::test_resume_in_fresh_checkpointer_and_versioned_publish PASSED [  6%]
+tests/test_governance_graph.py::test_unauthorised_role_cannot_publish PASSED [  9%]
+tests/test_governance_graph.py::test_denied_gate_publishes_nothing PASSED [ 12%]
+tests/test_governance_graph.py::test_targeted_self_repair_after_injected_faults PASSED [ 15%]
+tests/test_governance_graph.py::test_budget_exhaustion_escalates PASSED  [ 18%]
+tests/test_governance_graph.py::test_other_department_is_blocked_before_any_data_is_read PASSED [ 21%]
+tests/test_governance_graph.py::test_every_mcp_tool_call_is_audit_logged_including_parallel_workers PASSED [ 24%]
+tests/test_governance_graph.py::test_three_specialist_agents_are_distinct_graph_nodes_with_real_speedup PASSED [ 27%]
+tests/test_governance_graph.py::test_adjust_resumes_the_relevant_agent_and_reaches_a_fresh_gate PASSED [ 30%]
+tests/test_governance_graph.py::test_rollback_moves_pointer_and_is_recorded PASSED [ 33%]
+tests/test_langchain_memory_skills.py::test_langchain_tool_chain_through_mcp PASSED [ 36%]
+tests/test_langchain_memory_skills.py::test_retriever_is_langchain_and_ranks_relevant_first PASSED [ 39%]
+tests/test_langchain_memory_skills.py::test_run_state_is_not_persistent PASSED [ 42%]
+tests/test_langchain_memory_skills.py::test_skills_reusable_across_departments PASSED [ 45%]
+tests/test_mcp.py::test_mcp_server_advertises_tools_and_resource PASSED  [ 48%]
+tests/test_mcp.py::test_curriculum_is_real_2023_27_with_2026_revision PASSED [ 51%]
+tests/test_mcp.py::test_filter_by_course_code PASSED                     [ 54%]
+tests/test_mcp.py::test_every_industry_skill_has_sources PASSED          [ 57%]
+tests/test_mcp.py::test_performance_data_is_labelled_simulated PASSED    [ 60%]
+tests/test_mcp.py::test_revision_history_marks_real_bos_entries_separately_from_simulated_ones PASSED [ 63%]
+tests/test_mcp.py::test_accreditation_reference_has_17_acm_areas_and_department_outcomes PASSED [ 66%]
+tests/test_tools_analysis.py::test_credit_total_is_176 PASSED            [ 69%]
+tests/test_tools_analysis.py::test_stale_flags_use_catalog_year_codes PASSED [ 72%]
+tests/test_tools_analysis.py::test_evolution_finds_2026_revision PASSED  [ 75%]
+tests/test_tools_analysis.py::test_real_syllabus_shows_agentic_ai_already_covers_the_frameworks_it_teaches PASSED [ 78%]
+tests/test_tools_analysis.py::test_real_gaps_mlops_and_ai_eval_still_missing PASSED [ 81%]
+tests/test_tools_analysis.py::test_acm_benchmark_flags_hci_missing PASSED [ 84%]
+tests/test_tools_analysis.py::test_pso_alignment_valid PASSED            [ 87%]
+tests/test_tools_analysis.py::test_gaps_are_deterministic_and_grounded PASSED [ 90%]
+tests/test_tools_analysis.py::test_recommendations_validate_and_fault_is_detected PASSED [ 93%]
+tests/test_tools_analysis.py::test_out_of_scope_recommendation_is_rejected PASSED [ 96%]
+tests/test_tools_analysis.py::test_pg_pack_changes_recommendation_style PASSED [100%]
+
+============================= 33 passed in 48.90s ==============================

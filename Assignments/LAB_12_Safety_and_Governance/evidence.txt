@@ -1,0 +1,16 @@
+Command: python -m pytest tests/test_governance_graph.py::test_unauthorised_role_cannot_publish tests/test_governance_graph.py::test_other_department_is_blocked_before_any_data_is_read tests/test_governance_graph.py::test_adjust_resumes_the_relevant_agent_and_reaches_a_fresh_gate tests/test_governance_graph.py::test_rollback_moves_pointer_and_is_recorded -v
+
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.2.0, pluggy-1.7.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/claude/cis3
+plugins: platformdirs-4.13.0, anyio-4.16.0, langsmith-0.14.17
+collecting ... collected 4 items
+
+tests/test_governance_graph.py::test_unauthorised_role_cannot_publish PASSED [ 25%]
+tests/test_governance_graph.py::test_other_department_is_blocked_before_any_data_is_read PASSED [ 50%]
+tests/test_governance_graph.py::test_adjust_resumes_the_relevant_agent_and_reaches_a_fresh_gate PASSED [ 75%]
+tests/test_governance_graph.py::test_rollback_moves_pointer_and_is_recorded PASSED [100%]
+
+============================== 4 passed in 8.85s ===============================
+
